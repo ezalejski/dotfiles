@@ -5,7 +5,7 @@
 # more can be found here : https://gist.github.com/brandonb927/3195465
 
 if [ "$(uname -s)" != "Darwin" ]; then
-	exit 0
+    exit 0
 fi
 
 set +e
@@ -30,4 +30,4 @@ echo "  › Don't use native full-screen (separate Space) for MacVim"
 defaults write org.vim.MacVim MMNativeFullScreen 0
 
 echo "  › Enable key repeat in VSCodeVim"
-defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false 
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false

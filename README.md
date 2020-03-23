@@ -23,7 +23,12 @@ a few neat features
 prerequisites
 -------------
 
-- homebrew (If on macOS) - **Install this first**
+- homebrew (If on macOS) - **Install this first** 
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+
 - git: `brew install git`
 - ansible >= 1.6: `brew install ansible`
 
@@ -204,3 +209,10 @@ license
 -------
 
 [MIT Licensed](http://sloria.mit-license.org/).
+
+
+TODO:
+
+alias cat=bat
+alias ls=exa
+alias tree='exa --tree'
