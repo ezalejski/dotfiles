@@ -26,18 +26,28 @@ mac_homebrew_packages:
   - curl
   - jq
   - wget
+  - mkcert
+  - shellcheck
+  - exercism
   - kubernetes-cli
+  - kubernetes-helm
+  - terraform
+  - terraform@0.11
   - git
-  - gsed
+  - git-lfs
+  - git-crypt
+  - gnu-sed
   - terminal-notifier
   - youtube-dl
   - htop-osx
   - httpie
   - postgresql
   - redis
+  - golang
   - diff-so-fancy
   - docker-clean
   - gpg
+  - velero
   # Better ls
   - exa 
   # Better cat 
@@ -60,6 +70,9 @@ mac_homebrew_packages:
   - noti
   # For encrypting envvars in Travis
   - travis
+  # Work
+  - awscli
+  - aws-iam-authenticator
 
 # Mac Apps to be installed with homebrew-cask
 mac_cask_packages:
@@ -68,15 +81,22 @@ mac_cask_packages:
   # Editor
   - visual-studio-code
   # Browsers
-  - brave
+  - brave-browser
   - google-chrome
   # Utilities
+  - evernote
+  - clipy
+  - whatsapp
+  - forklift
+  - cryptomator
   - spectacle
   - iterm2
+  - github
   - keepingyouawake  # maintained caffeinate wrapper
   # Docker
   - docker
   # chat
+  - tweetbot
   - slack
   - keybase
   # Video conferencing
@@ -93,7 +113,10 @@ mac_cask_packages:
   # Design
   - gimp
   # Screen captures and recording
-  - cloudapp
+  - cloudapp  
+  # Work
+  - google-cloud-sdk
+
 
 # Mac-App-Store-only apps to be installed with mas
 # Use App IDs found with `mas search <name>`
